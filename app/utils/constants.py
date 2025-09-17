@@ -27,3 +27,5 @@ IB_SCALE = {
 }
 
 HYDROPHOBIC = {'A', 'I', 'L', 'F', 'V', 'M', 'C', 'W'}
+
+VALID_AMINOACIDS = set("ACDEFGHIKLMNPQRSTVWY")

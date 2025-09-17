@@ -1,6 +1,5 @@
 from typing import List
-
-VALID_AMINOACIDS = set("ACDEFGHIKLMNPQRSTVWY")
+from app.utils.constants import VALID_AMINOACIDS
 
 def parse_fasta(file_content: str) -> List[str]:
     sequences = []
